@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import github from '../img/github-icon.svg'
 import logo from '../img/logo.svg'
+import ProductCard from './ProductCard/ProductCard'
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -39,6 +40,10 @@ const Navbar = class extends React.Component {
         role="navigation"
         aria-label="main-navigation"
       >
+        <ProductCard
+          backgroundImage={"https://homepages.cae.wisc.edu/~ece533/images/airplane.png"}
+        >
+        </ProductCard>
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
