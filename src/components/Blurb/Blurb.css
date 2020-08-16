@@ -1,0 +1,13 @@
+.blurb-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    height: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#blurb-text {
+    color:rgb(170, 160, 160);
+    margin: 30px;
+}

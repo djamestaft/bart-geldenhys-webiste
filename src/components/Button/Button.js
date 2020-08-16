@@ -4,7 +4,7 @@ import './Button.css'
 
 const Button = (buttonText) => (
   <div className="button">
-      <div id="button-text">BOOK NOW</div>
+      <div id="button-text">{Object.values(buttonText)}</div>
   </div>
 )
 

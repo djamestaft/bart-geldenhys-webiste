@@ -7,6 +7,6 @@ export default {
 
 export const button = () => (
   <div style={{ padding: "16px", backgroundColor: "#eeeeee" }}>
-    <Button></Button>
+    <Button buttonText="Book Now"></Button>
   </div>
 )
