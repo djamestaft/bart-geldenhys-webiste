@@ -9,6 +9,7 @@ import ProductArea from '../components/Organisms/ProductArea/ProductArea'
 import UpcomingWorkshops from '../components/Organisms/UpcomingWorkshops/UpcomingWorkshops'
 import Blurb from '../components/Archetypes/Blurb/Blurb'
 import BartImage from "./massage_beach_landscape.png"
+import StonesNSuch from "./stones-n-such.png"
 
 export const IndexPageTemplate = ({}) => (
   <div>
@@ -27,6 +28,19 @@ export const IndexPageTemplate = ({}) => (
     />
     <ProductArea />
     <UpcomingWorkshops />
+    <div
+      className="full-width-image margin-top-0"
+      style={{
+        backgroundImage: `url(${
+          StonesNSuch
+        })`,
+        backgroundPosition: `top left`,
+        position: 'relative',
+        top: '-160px',
+        zIndex: '-1'
+    }}
+    >  
+    </div>
   </div>
 )
 
