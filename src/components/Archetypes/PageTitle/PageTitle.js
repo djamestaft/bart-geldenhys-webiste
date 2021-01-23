@@ -2,14 +2,14 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import './PageTitle.css'
 
-const PageTtle = (PageTtleText) => (
+const PageTitle = (PageTitleText) => (
   <div className="page-title">
-      <div id="page-title-text">Find Your Balance</div>
+      <div id="page-title-text">{Object.values(PageTitleText)}</div>
   </div>
 )
 
-PageTtle.propTypes = {
+PageTitle.propTypes = {
   PageTtleText: PropTypes.string
 }
 
-export default PageTtle
+export default PageTitle

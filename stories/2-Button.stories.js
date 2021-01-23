@@ -1,5 +1,5 @@
 import React from "react"
-import Button from '../src/components/Button/Button';
+import Button from '../src/components/Archetypes/Button/Button';
 
 export default {
   title: "Archetypes",

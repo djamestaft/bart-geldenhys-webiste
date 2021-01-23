@@ -1,11 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import './ProductCard.css'
+import defaultImage from './bart-product.png';
 
 const ProductCard = (backgroundImage) => (
   <div className="product-card">
       {/* <div style={{backgroundImage: `url(${backgroundImage})`, height: '100px'}} /> */}
-      <div id="product-image" style={{backgroundImage: `url(https://homepages.cae.wisc.edu/~ece533/images/airplane.png)`, height: '200px', width: '182px'}} />
+      <div id="product-image" style={{backgroundImage: `url(${defaultImage})`, height: '200px', width: '200px'}} />
       <div id="product-title">Product Title</div>
       <div id="product-description">
         Pro and Product description and dd 

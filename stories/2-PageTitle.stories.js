@@ -1,5 +1,5 @@
 import React from "react"
-import PageTitle from '../src/components/PageTitle/PageTitle';
+import PageTitle from '../src/components/Archetypes/PageTitle/PageTitle';
 
 export default {
   title: "Archetypes",

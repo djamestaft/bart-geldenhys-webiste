@@ -1,5 +1,5 @@
 import React from "react"
-import ProductCard from '../src/components/ProductCard/ProductCard';
+import ProductCard from '../src/components/Archetypes/ProductCard/ProductCard';
 
 export default {
   title: "Archetypes",
@@ -7,6 +7,6 @@ export default {
 
 export const productCard = () => (
   <div style={{ padding: "16px", backgroundColor: "#eeeeee" }}>
-    <ProductCard backgroundImage={"https://homepages.cae.wisc.edu/~ece533/images/airplane.png"}></ProductCard>
+    <ProductCard backgroundImage={"bart-product.png"}></ProductCard>
   </div>
 )

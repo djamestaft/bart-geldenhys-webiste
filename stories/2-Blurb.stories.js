@@ -1,5 +1,5 @@
 import React from "react"
-import Blurb from '../src/components/Blurb/Blurb';
+import Blurb from '../src/components/Archetypes/Blurb/Blurb';
 
 export default {
   title: "Archetypes",

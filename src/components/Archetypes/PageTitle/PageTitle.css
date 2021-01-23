@@ -2,13 +2,15 @@
     color:#303551;
     font-family: sans-serif;
     text-transform: uppercase;
-    width: 260px;
     border-top: 1px solid #303551;
     border-bottom: 1px solid #303551;
     display: flex;
+    width: max-content;
     justify-content: center;
     align-items: center;
     letter-spacing: 4px;
+    margin-top: 50px;
+    margin-bottom: 30px;
     font-weight: 100;
     padding: 30px 50px;
     font-size: 18px;

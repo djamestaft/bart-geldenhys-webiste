@@ -1,10 +1,14 @@
+/* @import "~@fontsource/oswald/index.css";
+@import "~@fontsource/oswald/300-italic.css"; */
+
 .product-card {
-    width: 182px;
+    width: 200px;
+    margin: 20px;
     font-family: sans-serif;
 }
 
 .product-card:hover {
-    background: rgba(0, 0, 0, .8);
+    background: rgba(0, 0, 0, .1);
 }
 
 #product-image {
