@@ -4,7 +4,7 @@ import './NavItem.css'
 
 const NavItem = ({navItemText, navUrl}) => (
   <div className="navitem-background">
-      <li id="navitem-text" href={navUrl}>{navItemText}</li>
+      <li id="navitem-text">{navItemText}</li>
   </div>
 )
 

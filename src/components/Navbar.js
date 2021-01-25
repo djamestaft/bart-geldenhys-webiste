@@ -1,5 +1,6 @@
 import React from 'react'
 import NavItem from '../components/Archetypes/NavItem/NavItem';
+import { Link } from 'gatsby';
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -52,27 +53,27 @@ const Navbar = class extends React.Component {
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-start has-text-centered">
-              <NavItem 
-                navItemText="Home"
-                navUrl="/about"/>
-              <NavItem 
-                navItemText="About"
-                navUrl="/products"/>
-              <NavItem 
-                navItemText="Gallery"
-                navUrl="/blog"/>
-              <h1 id="logo-text">
-                BART GULDENHUYS
-              </h1>
-              <NavItem 
-                navItemText="Timetable"
-                navUrl="/contact"/>
-              <NavItem 
-                navItemText="FAQ"
-                navUrl="/contact/examples"/>
-              <NavItem 
-                navItemText="Contact"
-                navUrl="/contact/examples"/>
+              <Link to="/">
+                <NavItem navItemText="Home"/>
+              </Link>
+              <Link to="/about">
+                <NavItem navItemText="About"/>
+              </Link>
+              <Link to="/gallery">
+                <NavItem navItemText="Gallery"/>
+              </Link>
+
+              <h1 id="logo-text">BART GULDENHUYS</h1>
+
+              <Link to="/bookings">
+                <NavItem navItemText="Bookings"/>
+              </Link>
+              <Link to="/faq">
+                <NavItem navItemText="FAQ"/>
+              </Link>
+              <Link to="/contact">
+                <NavItem navItemText="Contact"/>
+              </Link>
             </div>          
           </div>
         </div>
